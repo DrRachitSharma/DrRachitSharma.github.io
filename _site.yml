@@ -1,0 +1,26 @@
+name: "Rachit Sharma Website"
+output_dir: "."
+navbar:
+  title: "Rachit Sharma"
+  left:
+    - icon: fa-home fa-lg
+      href: index.html 
+    - text: "CV"
+      href: CV_Rachit Sharma.pdf
+    - text: "Presentations"
+      href: presentations.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<rs3634@drexel.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/DrRachitSharma
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/DrRachitSharma
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/rachit-sharma-9b4831114/
+    - icon: fa-google fa-lg
+      href: https://scholar.google.com/citations?hl=en&authuser=2&user=O7PVTNAAAAAJ
+output:
+  html_document:
+    theme: yeti
+    css: 'styles.css'
